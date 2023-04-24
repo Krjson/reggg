@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <%- include('./header.ejs') %>
+	<%- session.user.email %>
+	<%- session.user.role %>
+
+	<h1>Главная страница</h1>
+	<p>Добро пожаловать на главную страницу!</p>
+   
+</body>
+</html>
